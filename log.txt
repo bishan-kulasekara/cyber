@@ -1,0 +1,53 @@
+2023-10-06 08:58:14 - Attempting login for user: alice
+2023-10-06 08:58:14 - Login failed for user: alice
+2023-10-06 08:58:36 - Attempting login for user: alice
+2023-10-06 08:58:36 - Login failed for user: alice
+2023-10-06 08:58:41 - Attempting login for user: alice
+2023-10-06 08:58:41 - Login failed for user: alice
+2023-10-06 09:01:34 - Attempting login for user: alice
+2023-10-06 09:01:34 - Login failed for user: alice
+2023-10-06 09:02:02 - Attempting login for user: alice
+2023-10-06 09:02:02 - Login failed for user: alice
+2023-10-06 09:02:07 - Attempting login for user: alice
+2023-10-06 09:02:07 - Login failed for user: alice
+2023-10-06 09:02:35 - Attempting login for user: alice
+2023-10-06 09:02:35 - Login failed for user: alice
+2023-10-06 09:19:52 - Attempting login for user: a
+2023-10-06 09:19:52 - Login successful for user: a
+2023-10-06 10:23:24 - Attempting login for user: bishan
+2023-10-06 10:23:24 - Login successful for user: bishan
+2023-10-06 12:40:09 - Attempting login for user: alice
+2023-10-06 12:40:09 - Login failed for user: alice
+2023-10-06 12:49:14 - Attempting login for user: alice
+2023-10-06 12:49:14 - Login successful for user: alice
+2023-10-06 12:50:12 - Attempting login for user: <script>alert(0)</script>
+2023-10-06 12:50:12 - Login successful for user: <script>alert(0)</script>
+2023-10-06 12:54:05 - Attempting login for user:     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">     </script>           <script>           // Add "https://ipinfo.io" statement     // this will communicate with the ipify servers      // in order to retrieve the IP address     $.get("https://ipinfo.io", function(response) {             alert(response.ip);         }, "json")                   // "json" shows that data will be fetched in json format     </script>
+2023-10-06 12:54:05 - Login failed for user:     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">     </script>           <script>           // Add "https://ipinfo.io" statement     // this will communicate with the ipify servers      // in order to retrieve the IP address     $.get("https://ipinfo.io", function(response) {             alert(response.ip);         }, "json")                   // "json" shows that data will be fetched in json format     </script>
+2023-10-06 12:54:38 - Attempting login for user:     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">     </script>           <script>           // Add "https://ipinfo.io" statement     // this will communicate with the ipify servers      // in order to retrieve the IP ad
+2023-10-06 12:54:38 - Login successful for user:     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">     </script>           <script>           // Add "https://ipinfo.io" statement     // this will communicate with the ipify servers      // in order to retrieve the IP ad
+2023-10-06 13:09:11 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:09:11 - Login failed for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:09:15 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:09:15 - Login failed for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:10:25 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch('https://api.ipify.org?format=json')           .then(response => response.json())           .then(data => {             let div = document.createElement('div');         
+2023-10-06 13:10:46 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:10:46 - Login failed for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:10:50 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:10:51 - Login failed for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');             div.textContent = data.ip;             document.body.appendChild(div);           });     }); </script>
+2023-10-06 13:11:21 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch(''https://api.ipify.org?format=json'')           .then(response => response.json())           .then(data => {             let div = document.createElement(''div'');         
+2023-10-06 13:11:21 - Login successful for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch('https://api.ipify.org?format=json')           .then(response => response.json())           .then(data => {             let div = document.createElement('div');         
+2023-10-06 13:19:16 - Attempting login for user: <script>     document.addEventListener("DOMContentLoaded", function() {         fetch('https://api.ipify.org?format=json')           .then(response => response.json())           .then(data => {             let div = document.createElement('div');         
+2023-10-06 13:19:45 - Attempting login for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
+2023-10-06 13:20:58 - Attempting login for user: <script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>
+2023-10-06 13:20:58 - Login successful for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
+<script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>2023-10-06 15:29:06 - Attempting login for user: a
+2023-10-06 15:29:07 - Login failed for user: a
+2023-10-06 15:29:13 - Attempting login for user: admin
+2023-10-06 15:29:13 - Login failed for user: admin
+2023-10-06 15:29:19 - Attempting login for user: admin
+2023-10-06 15:29:19 - Login successful for user: admin
+2023-10-06 15:44:45 - Attempting login for user: Alice
+2023-10-06 15:44:45 - Login successful for user: Alice
+2023-10-06 15:45:53 - Attempting login for user: <script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>
+2023-10-06 15:45:53 - Login successful for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
