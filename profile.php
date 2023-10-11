@@ -47,12 +47,21 @@ if ($stmt->execute()) {
                 <li class="nav-item active">
                     <a class="nav-link" href="profile.php">Profile</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contactadmin.php">Contact Admin</a>
-                </li>
+                <?php if($user['role']=='admin'): ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">admin reports</a>
+                    </li>
+                <?php else: ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactadmin.php">Contact Admin</a>
+                    </li>
+                <?php endif; ?>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#">Logout</a>
                 </li>
+               
+
             </ul>
         </div>
     </nav>

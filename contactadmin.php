@@ -21,17 +21,17 @@ if ($stmt->execute()) {
     if ($result->num_rows > 0) {
         $user = $result->fetch_assoc();
     }
-}
-if(isset($_POST['message'])){
-    $message = $_POST['message'];
-    $id=$user['id'];
-    $sql="INSERT INTO report( userID, reportDescription) VALUES (?, ?)";
+
+    $sql="SELECT u.username AS UserName, r.reportDescription AS ReportMessage FROM `user` u JOIN `reports` r ON u.id = r.userID;";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param('is', $id,$message);
-    if ($stmt->execute()) {
-        echo "successfully sent $message to admin";
-    }
 }
+// if(isset($_POST['message'])){
+    
+//     // $stmt->bind_param('is', $id,$message);
+//     // if ($stmt->execute()) {
+//     //     echo "successfully sent $message to admin";
+//     // }
+// }
 ?>
 
 

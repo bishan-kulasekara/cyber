@@ -51,3 +51,9 @@
 2023-10-06 15:44:45 - Login successful for user: Alice
 2023-10-06 15:45:53 - Attempting login for user: <script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>
 2023-10-06 15:45:53 - Login successful for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
+2023-10-11 05:35:50 - Attempting login for user: <script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>
+2023-10-11 05:35:50 - Login successful for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
+2023-10-11 05:36:15 - Attempting login for user: admin
+2023-10-11 05:36:15 - Login failed for user: admin
+2023-10-11 05:37:45 - Attempting login for user: admin
+2023-10-11 05:37:45 - Login successful for user: admin

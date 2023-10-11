@@ -61,7 +61,7 @@ if(isset($_POST['message'])){
                     <a class="nav-link" href="profile.php">Profile</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link " href="admin.php">reports</a>
+                    <a class="nav-link " href="contactadmin.php">Contact Admin</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Logout</a>
@@ -88,22 +88,7 @@ if(isset($_POST['message'])){
                         </tr>
                     </thead>
                     <tbody id="reportsTableBody">
-                        <?php
-                        $query = "SELECT u.username AS UserName, r.reportDescription AS ReportMessage FROM `user` u JOIN `reports` r ON u.id = r.userID";
-                        $result = mysqli_query($conn, $query);
-
-                        if (mysqli_num_rows($result) > 0) {
-                            while ($row = mysqli_fetch_assoc($result)) {
-                                echo "<tr>";
-                                echo "<td>" . htmlspecialchars($row['UserName']) . "</td>";
-                                echo "<td>" . htmlspecialchars($row['ReportMessage']) . "</td>";
-                                echo "</tr>";
-                            }
-                        } else {
-                            echo "<tr><td colspan='2'>No records found.</td></tr>";
-                        }
-
-                        ?>
+                        <!-- Reports will be dynamically added here -->
                     </tbody>
                 </table>
             </div>
@@ -113,10 +98,14 @@ if(isset($_POST['message'])){
     <!-- Bootstrap & jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
-
+ CSS
+body {
+    font-family: Arial, sans-serif;
+}
+ 
+header {
 
     <style>
         body {
