@@ -57,3 +57,27 @@
 2023-10-11 05:36:15 - Login failed for user: admin
 2023-10-11 05:37:45 - Attempting login for user: admin
 2023-10-11 05:37:45 - Login successful for user: admin
+2023-10-12 06:32:30 - Attempting login for user: <script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>
+2023-10-12 06:32:30 - Login successful for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
+2023-10-24 21:42:37 - Attempting login for user: <script>alert(''Blind XSS payload executed! User agent: '' + navigator.userAgent);</script>
+2023-10-24 21:42:37 - Login successful for user: <script>alert('Blind XSS payload executed! User agent: ' + navigator.userAgent);</script>
+2023-10-24 21:43:41 - Attempting login for user: admin
+2023-10-24 21:43:41 - Login successful for user: admin
+2023-10-24 22:27:53 - Attempting login for user: Alice
+2023-10-24 22:27:54 - Login successful for user: Alice
+2023-10-24 22:28:54 - Attempting login for user: admin
+2023-10-24 22:28:54 - Login successful for user: admin
+2023-10-24 22:44:12 - Attempting login for user: Alice
+2023-10-24 22:44:12 - Login successful for user: Alice
+2023-10-24 22:45:28 - Attempting login for user: admin
+2023-10-24 22:45:28 - Login successful for user: admin
+2023-10-24 22:58:14 - Attempting login for user: Alice
+2023-10-24 22:58:14 - Login successful for user: Alice
+2023-10-25 05:39:29 - Attempting login for user: Alice
+2023-10-25 05:39:29 - Login successful for user: Alice
+2023-10-25 05:40:29 - Attempting login for user: admin
+2023-10-25 05:40:29 - Login successful for user: admin
+2023-10-25 05:47:49 - Attempting login for user: Alice
+2023-10-25 05:47:49 - Login successful for user: Alice
+2023-10-25 05:48:31 - Attempting login for user: admin
+2023-10-25 05:48:31 - Login successful for user: admin

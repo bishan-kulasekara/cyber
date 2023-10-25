@@ -108,6 +108,7 @@ if(isset($_POST['message'])){
                 </table>
             </div>
         </div>
+        <input type="text" name=""/>
     </section>
  
     <!-- Bootstrap & jQuery JS -->

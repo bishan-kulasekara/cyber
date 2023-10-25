@@ -49,7 +49,7 @@ if ($stmt->execute()) {
                 </li>
                 <?php if($user['role']=='admin'): ?>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">admin reports</a>
+                        <a class="nav-link" href="admin.php">admin reports</a>
                     </li>
                 <?php else: ?>
                     <li class="nav-item">
